@@ -1,5 +1,6 @@
 // uppgift 1: This program prints out name, age and if its a student or not. 
 //Sibgha Hayat, 2026
+"use strict";
 let förNamn = "Sibgha"
 let efterNamn = "Hayat"
 let ålder = 23

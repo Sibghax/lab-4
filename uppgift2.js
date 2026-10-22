@@ -1,5 +1,6 @@
 // Uppgift 2:This program prints out price of the apple, amount, total and total with moms. 
 //Sibgha Hayat, 2026
+"use strict";
 let apple = 35 
 let amount = 10
 let total = apple * amount 

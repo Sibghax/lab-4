@@ -1,5 +1,6 @@
 //Uppgift 3: This program prints the age groups, depending on the age variable.  
 //Sibgha Hayat, 2026
+"use strict";
 let age = 66
 
 
