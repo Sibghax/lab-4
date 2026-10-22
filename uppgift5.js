@@ -1,4 +1,4 @@
-// uppgift 5: this progrma....... 
+// uppgift 5: this program creates an array and changes value
 //Sibgha Hayat, 2026
 "use strict";
 
@@ -10,4 +10,3 @@ console.log(fruits[4])
 
 fruits.push("oranges")
 fruits.shift()
-console.log(fruits)
