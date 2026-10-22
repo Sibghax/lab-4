@@ -1,4 +1,4 @@
-// uppgift 6: this program calculates the sum of an array
+// uppgift 7: this program calculates the sum of an array
 //Sibgha Hayat, 2026
 "use strict";
 
