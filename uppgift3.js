@@ -1,13 +1,13 @@
-//Uppgift 3: This program prints the age groups, depending on the age variable.  
+//Uppgift 3: This program prints the age groups, depending on the age variable.
 //Sibgha Hayat, 2026
 "use strict";
-let age = 66
+let age = 66;
 
-
-if (age < 18){ // creating different conditions, dividing people into 3 groups depending on their age. 
-    console.log("barn")
-} else if (age >= 18 && age < 65 ) {
-    console.log("Vuxen")
+if (age < 18) {
+  // creating different conditions, dividing people into 3 groups depending on their age.
+  console.log("barn");
+} else if (age >= 18 && age < 65) {
+  console.log("Vuxen");
 } else {
-    console.log("Pensionär")
+  console.log("Pensionär");
 }
