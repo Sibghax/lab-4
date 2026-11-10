@@ -10,3 +10,4 @@ console.log(fruits[4]);
 
 fruits.push("oranges"); //addeding new value in the array
 fruits.shift(); //removing value
+console.log(fruits); 
