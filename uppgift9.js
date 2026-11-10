@@ -21,25 +21,21 @@ let personaldata = [
   },
 ];
 
-function person(personaldata) {
-  for (let i = 0; i < personaldata.length; i++) {
+function printperson(person) {
     //going through the object one by one
-    if (personaldata[i].age >= 18) {
+    if (person.age >= 18) {
       //creating a condition to devide the people depending on the age into two groups myndig and inte myndig
-      console.log(
-        personaldata[i].names +
-          " bor i " +
-          personaldata[i].city +
-          " och är myndig",
-      ); //printing out name, city and which group they belong.
+      console.log(person.names + " bor i " + person.city + " och är myndig", ); 
     } else
       console.log(
-        personaldata[i].names +
+        person.names +
           " bor i " +
-          personaldata[i].city +
+          person.city +
           " och är inte myndig",
       );
   }
-}
 
-person(personaldata); // printing the function
+// Loopen går igenom arrayen och skickar en person i taget till funktionen
+ for (let i = 0; i < personaldata.length; i++) {
+printperson(personaldata[i]);
+ }
