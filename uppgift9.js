@@ -24,7 +24,7 @@ let personaldata = [
 
 function person(personaldata){
     for(let i=0; i < personaldata.length; i++){
-        if (personaldata[i].age > 18){
+        if (personaldata[i].age >= 18){
             console.log(personaldata[i].names + " bor i " + personaldata[i].city + " och är myndig")
         } else
             console.log(personaldata[i].names + " bor i " + personaldata[i].city + " och är inte myndig")
