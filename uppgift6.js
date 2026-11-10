@@ -3,7 +3,7 @@
 "use strict";
 
 function calculateArea(bredd, höjd){
-    return bredd + höjd
+    return bredd * höjd 
 
 }
 
