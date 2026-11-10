@@ -4,7 +4,7 @@
 let age = 66
 
 
-if (age < 18){
+if (age < 18){ // creating different conditions, dividing people into 3 groups depending on their age. 
     console.log("barn")
 } else if (age >= 18 && age < 65 ) {
     console.log("Vuxen")

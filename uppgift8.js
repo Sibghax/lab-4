@@ -3,7 +3,7 @@
 "use strict";
 
 
-let books = {
+let books = { //craeted an object 
     title : "book",
     auther : "Jon", 
     publishyear : 2002,
@@ -11,9 +11,9 @@ let books = {
 
 
 function favbook (book){
-     console.log("Tittle: " + book.title)
+     console.log("Tittle: " + book.title) //printing the values of the object
      console.log("auther: " + book.auther)
      console.log("publish: " + book.publishyear)
 }
 
-favbook(books)
+favbook(books) //running the function
